@@ -26,7 +26,7 @@ body{
     display: flex;
 }
 .header_logo {
-    font-family: 'Revalia';
+    font-family: 'Tac One';
     font-style: normal;
     font-weight: 400;
     cursor: pointer;
@@ -40,7 +40,7 @@ body{
     font-weight: 500;
     cursor: pointer;
     margin-top: 24px;
-    margin-left: 460.79px;
+    margin-left: 472px;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -66,4 +66,11 @@ body{
     gap: 10px;
     border-radius: 12px  ; 
     border: 2px;   
+}
+.block{
+    width: 874px;
+    height: 223px;
+    background-color: aliceblue;
+    z-index: 10;
+    border-radius: 1px;
 }
