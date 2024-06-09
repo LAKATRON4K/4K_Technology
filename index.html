@@ -3,38 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Tac+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-    <body>
-        <section class="s1">
-            <img src="./Group_214.png" alt="">
-            <header>
-                <div class="wrapper">
-                    <div class="header_wrapper">
-                        <div class="header_logo">
-                            <h1 id="myLogo">4K</h1>
-                        </div>
-                        <div class="header_menu">
-                            <button class="header_link"><a href="#intro">Главная</a></button>
-                            <button class="header_link"><a href="#about">Обо мне</a></button>
-                            <button class="header_link"><a href="#brain">Навыки</a></button>
-                            <button class="header_link"><a href="#process">Отзывы</a></button>
+<body>
+    <nav>
+        <div class="fixed-menu">
+            <h1 class="logo">4K</h1>
+            <div class="nav-links">
+                <a class="nav-link main-link active" href="#main">Главная</a>
+                <a class="nav-link about-link" href="#about">Обо мне</a>
+                <a class="nav-link skills-link" href="#skills">Навыки</a>
+                <a class="nav-link works-link" href="#works">Работы</a>
+                <a class="nav-link comments-link" href="#comments">Отзывы</a>
+            </div>
+            <div class="mobile-button">
+                <img class="mobile-btn" src="img/mobile_menu.png" width="40">
+                <img class="mobile-btn btn-hide" src="img/close_menu.png" width="40">
+            </div>
+            <div class="mobile-menu hide">
+                <div class="mobile-nav">
+                    <div class="mobile-nav-links">
+                        <a class="nav-link" href="#main">Главная</a>
+                        <a class="nav-link" href="#about">Обо мне</a>
+                        <a class="nav-link" href="#skills">Навыки</a>
+                        <a class="nav-link" href="#works">Работы</a>
+                        <a class="nav-link" href="#comments">Отзывы</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="main">
+        <div class="main-block">
+            <div class="planet"></div>
+            <img src="img/maskot.png" width="125">
+            <div class="main-content">
+                <h1 class="main-title">LAKATRON4K</h1>
+                <p class="main-subtitle">личная страница разработчика</p>
+            </div>
+            <div class="button">
+                <a href="#">Подробнее</a>  
+            </div>
+        </div>
+        <div class="moving-planet"></div>
+    </section>
+
+    <section id="about">
+        <h1 class="title">ОБО МНЕ</h1>
+            <div class="about-block">
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="about-title"> Меня зовут LAKATRON4K. 
+                            Я занимаюсь разработкой современных 
+                            сайтов и моделизацией. <br><br>
+                            Мне нравится создавать интересные и 
+                            современные проекты.
+                        </p>
+                        <div class="button">
+                            <a href="#">Мои навыки</a>  
                         </div>
                     </div>
                 </div>
-            </header>
-            <div class="block">
-                <h2>LAKATRON4K</h2>     
+                <div class="about-card">
+                    <img src="minecraft-legends_p1rx.1200.jpg">
+                    <p>Где живу: Яссы</p>
+                    <p>Возраст: 12</p>
+                    <p>Дата рождения: 2012</p>
+                </div>
             </div>
-        </section>
-    </body>
+            <div class="moving-cloud"></div>
+    </section>
+
+    <section id="skills">
+        <h1 class="title">НАВЫКИ</h1>
+        <div class="skills-block">
+            <div class="skills-card">
+                <p> ЭТОТ САЙТ Я ЗДЕЛАЛ В GitHub, И ТАМ ЖЕ ЗАПОСТИЛ.
+                </p>
+                <div class="languages">
+                    <img src="img/html.png" width="70">
+                    <img src="img/css.png" width="70">
+                    <img src="img/js.png" width="70">
+                </div>
+                <div class="button">
+                    <a href="#">Смотреть работы</a>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="works">
+        <h1 class="title">РАБОТЫ</h1>
+        <div class="works-block">
+            <img src="article_image_brawlstars_1.0.jpg" >
+            <img src="img/work2.png">
+            <img src="4153849.webp">
+        </div>
+    </section>
+
+    <section id="comments">
+        <h1 class="title">ОТЗЫВЫ</h1>
+        <div class="comments-block">
+            <div class="comment-card">
+                <img src="img/photo1.png">
+                <h3>Владимир</h3>
+                <p>Основатель Rocket Tech School</p>
+            </div>
+            <div class="comment">
+                <p>
+                    Этот LAKATRON4K проходил обучение 
+                    веб разработке 4 месяца, 
+                    и уже создает сложные сайты!
+                </p>
+            </div>
+            <div class="comment-card">
+                <img src="img/photo2.png">
+                <h3>Диана</h3>
+                <p>Product Lead Rocket Tech School</p>
+            </div>
+            <div class="comment">
+                <p>
+                    Очень хорошо пишет код. 
+                    Отличная оптимизация сайта. 
+                    Современно, стильно, молодежно!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-info">
+            <p>LAKATRON4K</p>
+            <p>Личный сайт веб разработчика</p>
+        </div>
+        <div class="footer-year">
+            <p>© 2024</p>
+        </div>
+        <div class="footer-links">
+            <a href="#"><img src="img/facebook.svg"></a>
+            <a href="#"><img src="img/instagram.svg"></a>
+            <a href="#"><img src="img/telegram.svg"></a>
+            <a href="#"><img src="img/discord.svg"></a>
+        </div>
+    </footer>
+
     <script src="main.js"></script>
+</body>
 </html>
